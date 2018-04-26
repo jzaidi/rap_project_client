@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Rapper's Delight</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <img src="/Users/jaffarzaidi/Galvanize/Projects/rap_project_client/Screen Shot 2018-04-23 at 11.51.37 AM.png" alt="" class="logo">
+                <!-- <h3>Sidebar</h3> -->
+            </div>
+            <!-- Sidebar Links -->
+            <ul class="list-unstyled components" id='list'>
+                <li class="active">
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                
+            </ul>
+        </nav>
+
+        <!-- Actual Content -->
+        <div id="content">
+            <h1>Rapper's Delight</h1>
+            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                <i class="glyphicon glyphicon-align-left"></i>
+                Toggle Sidebar
+            </button>
+            <div id='all-rapposts'>
+            </div>
+            <div id='focus-rappost'></div>
+        </div>
+
+
+    </div>
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!-- Bootstrap Js CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./axios.js"></script>
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
